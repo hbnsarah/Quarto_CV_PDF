@@ -19,12 +19,11 @@ header-includes:
   - \usepackage{sectsty}  # Allows you to change section title styles
   - \sectionfont{\color{titlecolor}}  # Apply color to section titles
   - \subsectionfont{\color{titlecolor}}  # Apply color to subsection titles
-  - \subsubsectionfont{\color{titlecolor}}
+  - \subsubsectionfont{\color{titlecolor}} # Apply color to subsubsection titles
   - \pagestyle{empty} # Set the pagestyle to empty for the entire document
   - \setlength{\parskip}{0pt}  # Remove space between paragraphs
   - \setlength{\baselineskip}{12pt}  # Adjust line spacing
 ---
-
 
 ```{r}
 #| echo: false
@@ -36,24 +35,20 @@ setwd("~/R/CV PDF")
 ```{=tex}
 \noindent
 \begin{tcolorbox}[colback=titlecolor!100,colframe=white,arc=10pt,boxrule=0pt,
-    width=\dimexpr\textwidth+1.5cm\relax,  % Increase the width beyond text margins
-    enlarge left by=-1cm,               % Shift box left by 0.75cm
-    enlarge right by=-1cm,              % Shift box right by 0.75cm
-    ]
-
-    \begin{minipage}[c][4cm][c]{0.20\textwidth}  % Adjusted image minipage width
+    width=\dimexpr\textwidth+1.5cm\relax, enlarge left by=-1cm, enlarge right by=-1cm,]
+    \begin{minipage}[c][4cm][c]{0.20\textwidth}  
         \centering
         \begin{tikzpicture}
             \draw[white, line width=3pt] (0,0) circle(1.75cm);
-            \clip (0,0) circle(1.75cm);  % Clip to a circle with a radius of 1.75cm
+            \clip (0,0) circle(1.75cm);  
             \node[anchor=center] at (0,0) {\includegraphics[width=3.5cm,height=3.5cm, keepaspectratio]{zena.jpg}};
         \end{tikzpicture}
     \end{minipage}%
     \hfill
-    \begin{minipage}[c][5.25cm][c]{0.75\textwidth}  % Adjusted text minipage width
+    \begin{minipage}[c][5.25cm][c]{0.75\textwidth}  
         \textcolor{white}{
             \textbf{\LARGE Coding Zena} \\
-            \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}} \\  % Add white underline
+            \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}} \\  
             \begin{tabbing}
             \hspace{3cm} \= \hspace{5cm} \= \kill
             \textbf{Gender:} Female \> 
@@ -66,9 +61,7 @@ setwd("~/R/CV PDF")
             \end{tabbing}
         }
     \end{minipage}
-
 \end{tcolorbox}
-
 ```
 # PROFESSIONAL EXPERIENCE
 
@@ -100,14 +93,14 @@ setwd("~/R/CV PDF")
 
 # EDUCATION
 
-\textcolor{gray}{2013 - 2020} \hspace{0.4cm} \textbf{PhD in Sleeping sciences}  \hspace{8.8cm}\textcolor{gray}{Home}\
-\textcolor{gray}{2011 - 2013} \hspace{0.4cm} \textbf{Master in Sleeping Sciences}  \hspace{8.3cm}\textcolor{gray}{Home}\
-\textcolor{gray}{2007 - 2011} \hspace{0.4cm} \textbf{Bachelor in Sleeping Sciences}  \hspace{8cm}\textcolor{gray}{Home}\
+\textcolor{gray}{2013 - 2020} \hspace{0.4cm} \textbf{PhD in Sleeping sciences} \hspace{8.8cm}\textcolor{gray}{Home}\
+\textcolor{gray}{2011 - 2013} \hspace{0.4cm} \textbf{Master in Sleeping Sciences} \hspace{8.3cm}\textcolor{gray}{Home}\
+\textcolor{gray}{2007 - 2011} \hspace{0.4cm} \textbf{Bachelor in Sleeping Sciences} \hspace{8cm}\textcolor{gray}{Home}\
 
 # TRAINING
 
-\textcolor{gray}{2021 - Today} \hspace{0.4cm} \textbf{Data Science and Data Management}  \hspace{6.5cm}\textcolor{gray}{DataCamp}\
-\textcolor{gray}{2023} \hspace{1.6cm} \textbf{Responsive Web Design}  \hspace{7.8cm}\textcolor{gray}{freeCodeCamp}\
+\textcolor{gray}{2021 - Today} \hspace{0.4cm} \textbf{Data Science and Data Management} \hspace{6.5cm}\textcolor{gray}{DataCamp}\
+\textcolor{gray}{2023} \hspace{1.6cm} \textbf{Responsive Web Design} \hspace{7.8cm}\textcolor{gray}{freeCodeCamp}\
 
 # LANGUAGES
 
