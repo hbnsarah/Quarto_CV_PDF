@@ -3,30 +3,28 @@ format:
   pdf
 geometry: margin=1in
 header-includes:
-  - \usepackage{graphicx}
-  - \usepackage{fancyhdr}
-  - \usepackage{fontspec}
-  - \setmainfont{Calibri}
+  - \usepackage{graphicx} # Required to use images 
+  - \usepackage{fontspec} # Required to change font
+  - \setmainfont{Calibri} # font selected
+  - \usepackage{fancyhdr} # Required to create custom headers and footers
   - \pagestyle{fancy}
-  - \renewcommand{\headrulewidth}{0pt}
+  - \renewcommand{\headrulewidth}{0pt} 
   - \renewcommand{\footrulewidth}{0pt}
   - \fancyhead[L]{}
   - \fancyhead[C]{}
   - \fancyhead[R]{}
-  - \usepackage{hyperref}
+  - \usepackage{hyperref} # Required to customise the hyperlinks
   - \hypersetup{colorlinks=true, linkcolor=white, linkbordercolor=white}
-  - \usepackage{tikz} 
-  - \usepackage{xcolor}
+  - \usepackage{tikz} # Required to manipulate the image here
+  - \usepackage{xcolor} # Required to handle colors in the document
   - \usepackage{tcolorbox}   # Required for setting custom colors
   - \definecolor{titlecolor}{HTML}{104B7A}  # Define the custom color
   - \usepackage{sectsty}  # Allows you to change section title styles
   - \sectionfont{\color{titlecolor}}  # Apply color to section titles
   - \subsectionfont{\color{titlecolor}}  # Apply color to subsection titles
   - \subsubsectionfont{\color{titlecolor}}
-  - \pagestyle{empty}
+  - \pagestyle{empty} # Set the pagestyle to empty for the entire document
   - \setlength{\parskip}{0pt}  # Remove space between paragraphs
-  - \setlength{\parsep}{0pt}
-  - \setlength{\tabbingsep}{0pt}
   - \setlength{\baselineskip}{12pt}  # Adjust line spacing
   
 ---
