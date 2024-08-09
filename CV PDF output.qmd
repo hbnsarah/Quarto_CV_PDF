@@ -80,7 +80,7 @@ setwd("~/R/CV PDF")
 
 ## Chief Operating Officer
 
-*1^st^ January 2023 – Today*                                                                                                             ***Home (Belgium)***
+\textcolor{gray}{\textit{1\textsuperscript{st} January 2023 – 15 September 2024} \hspace{7.5cm}Home (Belgium)}
 
 -   Hooman sleeping hours coordination
     -   Wake her up at a decent hour
@@ -90,7 +90,7 @@ setwd("~/R/CV PDF")
 
 ## Sleeping Manager
 
-*2^nd^ August 2021 – 31^st^ December 2022*                                                                                ***Bedroom (Belgium)***
+\textcolor{gray}{\textit{2\textsuperscript{th} August 2021 – 31\textsuperscript{st} December 2022} \hspace{7.5cm}Home (Belgium)}
 
 -   Data management
 -   Creation and implementation of a wake-up alarm
@@ -99,21 +99,21 @@ setwd("~/R/CV PDF")
 
 ## Hunter
 
-*10^th^ October 2013 – 31^st^ July 2021*                                                                                          ***Home (Belgium)***
+\textcolor{gray}{\textit{10\textsuperscript{th} October 2013 – 31\textsuperscript{st} July 2021} \hspace{8cm}Home (Belgium)}
 
 -   Laser pointer chaser
 -   Spider hunter
 
 # EDUCATION
 
-2013 - 2020     **PhD in Sleeping sciences**                                                                                              Home\
-2011 - 2013     **Master in Sleeping Sciences**                                                                                         Home\
-2007 - 2011     **Bachelor in Sleeping Sciences**                                                                                      Home\
+\textcolor{gray}{2013 - 2020} \hspace{0.4cm} \textbf{PhD in Sleeping sciences}  \hspace{8.8cm}\textcolor{gray}{Home}\
+\textcolor{gray}{2011 - 2013} \hspace{0.4cm} \textbf{Master in Sleeping Sciences}  \hspace{8.3cm}\textcolor{gray}{Home}\
+\textcolor{gray}{2007 - 2011} \hspace{0.4cm} \textbf{Bachelor in Sleeping Sciences}  \hspace{8cm}\textcolor{gray}{Home}\
 
 # TRAINING
 
-2021 - Today    **Data Science and Data Management**                                                            DataCamp\
-2023                  **Responsive Web Design**                                                                                 freeCodeCamp\
+\textcolor{gray}{2021 - Today} \hspace{0.4cm} \textbf{Data Science and Data Management}  \hspace{6.5cm}\textcolor{gray}{DataCamp}\
+\textcolor{gray}{2023} \hspace{1.6cm} \textbf{Responsive Web Design}  \hspace{7.8cm}\textcolor{gray}{freeCodeCamp}\
 
 # LANGUAGES
 
@@ -123,10 +123,10 @@ setwd("~/R/CV PDF")
 
 # IT SKILLS
 
-**Data Science and Data Management:** R, Python, SQL\
-**Spatial Data Analysis:** GIS (QGIS & R)\
-**Word Processing and Communication:** Office Suite, LaTeX, RMarkdown, Quarto, Shiny\
-**Web Development:** CMS (Drupal), Visual Studio Code (HTML5, CSS3, JavaScript)
+\textbf{Data Science and Data Management:} R, Python, SQL\
+\textbf{Spatial Data Analysis:} GIS (QGIS & R)\
+\textbf{Word Processing and Communication:} Office Suite, LaTeX, RMarkdown, Quarto, Shiny\
+\textbf{Web Development:} CMS (Drupal), Visual Studio Code (HTML5, CSS3, JavaScript)
 
 # SOFT SKILLS
 
@@ -137,7 +137,7 @@ setwd("~/R/CV PDF")
 
 # VOLUNTEERING
 
-2016 - Today     **Volunteer in a cat shelter**
+2016 - Today \hspace{0.4cm} \textbf{Volunteer in a cat shelter}
 
 # HOBBIES
 
@@ -147,7 +147,7 @@ Travel, Coding, Photography, Treks, Piano, Drawing, and Painting
 
 # PUBLICATIONS
 
-Not my paper, but to stay consistent with the theme of this template and to finish with a humorous note.
+\textcolor{red}{Not my paper, but to stay consistent with the theme of this template and to finish with a humorous note.}
 
-**2024**\
+\textbf{2024}\
 Cat Ownership and Schizophrenia-Related Disorders and Psychotic-Like Experiences: A Systematic Review and Meta-Analysis. John J McGrath, Carmen C W Lim, Sukanta Saha [DOI: 10.1093/schbul/sbad168](https://pubmed.ncbi.nlm.nih.gov/38041862/)
