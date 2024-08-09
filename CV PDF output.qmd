@@ -1,0 +1,153 @@
+---
+format:
+  pdf
+geometry: margin=1in
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{fancyhdr}
+  - \usepackage{fontspec}
+  - \setmainfont{Calibri}
+  - \pagestyle{fancy}
+  - \renewcommand{\headrulewidth}{0pt}
+  - \renewcommand{\footrulewidth}{0pt}
+  - \fancyhead[L]{}
+  - \fancyhead[C]{}
+  - \fancyhead[R]{}
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true, linkcolor=white, linkbordercolor=white}
+  - \usepackage{tikz} 
+  - \usepackage{xcolor}
+  - \usepackage{tcolorbox}   # Required for setting custom colors
+  - \definecolor{titlecolor}{HTML}{104B7A}  # Define the custom color
+  - \usepackage{sectsty}  # Allows you to change section title styles
+  - \sectionfont{\color{titlecolor}}  # Apply color to section titles
+  - \subsectionfont{\color{titlecolor}}  # Apply color to subsection titles
+  - \subsubsectionfont{\color{titlecolor}}
+  - \pagestyle{empty}
+  - \setlength{\parskip}{0pt}  # Remove space between paragraphs
+  - \setlength{\parsep}{0pt}
+  - \setlength{\tabbingsep}{0pt}
+  - \setlength{\baselineskip}{12pt}  # Adjust line spacing
+  
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+
+setwd("~/R/CV PDF")
+```
+
+```{=tex}
+\noindent
+\begin{tcolorbox}[colback=titlecolor!100,colframe=white,arc=10pt,boxrule=0pt,
+    width=\dimexpr\textwidth+1.5cm\relax,  % Increase the width beyond text margins
+    enlarge left by=-1cm,               % Shift box left by 0.75cm
+    enlarge right by=-1cm,              % Shift box right by 0.75cm
+    ]
+
+    \begin{minipage}[c][4cm][c]{0.20\textwidth}  % Adjusted image minipage width
+        \centering
+        \begin{tikzpicture}
+            \draw[white, line width=3pt] (0,0) circle(1.75cm);
+            \clip (0,0) circle(1.75cm);  % Clip to a circle with a radius of 1.75cm
+            \node[anchor=center] at (0,0) {\includegraphics[width=3.5cm,height=3.5cm, keepaspectratio]{zena.jpg}};
+        \end{tikzpicture}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c][5.25cm][c]{0.75\textwidth}  % Adjusted text minipage width
+        \textcolor{white}{
+            \textbf{\LARGE Coding Zena} \\
+            \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}} \\  % Add white underline
+            \begin{tabbing}
+            \hspace{3cm} \= \hspace{5cm} \= \kill
+            \textbf{Gender:} Female \> 
+            \textbf{Date of birth:} 01/05/2015 \> \textbf{Nationality:} Belgian \\
+            \textbf{Residence:} Belgium \\
+            \textbf{Phone:} (+32)0123456789 \\
+            \textbf{Email:} \href{mailto:codingzena@gmail.com}{\textcolor{white}{\underline{codingzena@gmail.com}}} \\
+            \textbf{ORCID:} \href{https://orcid.org/0000-0000-0000-0000}{\textcolor{white}{\underline{0000-0000-0000-0000}}} \\
+            \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sarah-houben-6238abba/}{\textcolor{white}{\underline{sarah-houben-6238abba}}}
+            \end{tabbing}
+        }
+    \end{minipage}
+
+\end{tcolorbox}
+
+```
+# PROFESSIONAL EXPERIENCE
+
+## Chief Operating Officer
+
+*1^st^ January 2023 – Today*                                                                                                             ***Home (Belgium)***
+
+-   Hooman sleeping hours coordination
+    -   Wake her up at a decent hour
+    -   Jump on her if she is not cooperative
+-   Control food quality
+-   Control of litter box emptiness
+
+## Sleeping Manager
+
+*2^nd^ August 2021 – 31^st^ December 2022*                                                                                ***Bedroom (Belgium)***
+
+-   Data management
+-   Creation and implementation of a wake-up alarm
+-   Coordination of my hooman sleep hours
+-   Ensure my hooman does not sleep too much
+
+## Hunter
+
+*10^th^ October 2013 – 31^st^ July 2021*                                                                                          ***Home (Belgium)***
+
+-   Laser pointer chaser
+-   Spider hunter
+
+# EDUCATION
+
+2013 - 2020     **PhD in Sleeping sciences**                                                                                              Home\
+2011 - 2013     **Master in Sleeping Sciences**                                                                                         Home\
+2007 - 2011     **Bachelor in Sleeping Sciences**                                                                                      Home\
+
+# TRAINING
+
+2021 - Today    **Data Science and Data Management**                                                            DataCamp\
+2023                  **Responsive Web Design**                                                                                 freeCodeCamp\
+
+# LANGUAGES
+
+| Language | French | English | German | Dutch | Spanish |
+|----------|--------|---------|--------|-------|---------|
+| Level    | Native | C2      | C1     | B2    | B1      |
+
+# IT SKILLS
+
+**Data Science and Data Management:** R, Python, SQL\
+**Spatial Data Analysis:** GIS (QGIS & R)\
+**Word Processing and Communication:** Office Suite, LaTeX, RMarkdown, Quarto, Shiny\
+**Web Development:** CMS (Drupal), Visual Studio Code (HTML5, CSS3, JavaScript)
+
+# SOFT SKILLS
+
+-   Empty the litter box really quickly
+-   Can meow very loudly
+-   Can sleep everywhere
+-   Can sleep for 15 hours in a row
+
+# VOLUNTEERING
+
+2016 - Today     **Volunteer in a cat shelter**
+
+# HOBBIES
+
+Travel, Coding, Photography, Treks, Piano, Drawing, and Painting
+
+\newpage
+
+# PUBLICATIONS
+
+Not my paper, but to stay consistent with the theme of this template and to finish with a humorous note.
+
+**2024**\
+Cat Ownership and Schizophrenia-Related Disorders and Psychotic-Like Experiences: A Systematic Review and Meta-Analysis. John J McGrath, Carmen C W Lim, Sukanta Saha [DOI: 10.1093/schbul/sbad168](https://pubmed.ncbi.nlm.nih.gov/38041862/)
